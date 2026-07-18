@@ -1,0 +1,36 @@
+.pro-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    transition: 0.3s;
+}
+
+footer .bi:hover {
+    color: #0d6efd;
+    transform: translateY(-3px);
+}
+
+footer .nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.projects{
+     margin-left: 150px;
+}
+
+@media(max-width: 1200px){
+    .pro-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects{
+    text-align: center;
+    margin: 0%;
+}
+}
